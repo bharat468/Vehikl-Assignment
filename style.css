@@ -272,6 +272,8 @@ header {
     display: flex;
     align-items: top;
     justify-content: center;
+    margin: 0 0 130px 0;
+
 }
 
 .firstline
@@ -311,3 +313,201 @@ header {
     list-style: none;
 
 }
+
+.photo
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.photo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+
+}
+
+.photobox
+{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.underbox
+{
+    width: 40%;
+    height: 320px;
+    border: 0.2px solid rgba(255, 255, 255, 0.416);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121c2e;
+}
+
+.newunderbox
+{
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+}
+
+.newunderbox h5
+{
+    margin: 15px auto 0;
+}
+
+.newunderbox h6
+{
+    margin: 10px auto 0;
+}
+
+.ancor h6 a
+{
+    color: darkorange;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ancor
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxa
+{
+    width: 28%;
+    height: 530px;
+    border: .2px solid rgba(255, 255, 255, 0.358);
+    border-radius: 10px;
+    position: relative;
+}
+
+.imageboxa
+{
+    width: 300px;
+    height: 200px;
+    margin: 25px ;
+    border: .2px solid rgba(255, 255, 255, 0.358);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.imageboxa img
+{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.contenta
+{
+    width: 300px;
+    margin: 10px 25px;
+}
+
+.contenta h1
+{
+    color: white;
+    font-size: 30px;
+}
+
+.contenta p
+{
+    color: white;
+}
+
+.contenta span a
+{
+    position: absolute;
+    bottom: 20px;
+    text-decoration: none;
+    color: darkorange;
+
+}
+
+.boxahead
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.meetups
+{
+    margin: 0 auto 80px;
+}
+
+.imagebotton1 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin: 20px auto 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.imagebotton1 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.logo1 {
+    width: 170px;
+    height: 40px;
+    margin: auto;
+
+
+}
+
+.logo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer
+{
+    height: 150px;
+    
+}
+
+#last
+{
+    margin: 130px 0 0 0 ;
+    background-color: #152035dd;
+    padding: 30px;
+
+}
+
+
+.iconAhead
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+
+
+
