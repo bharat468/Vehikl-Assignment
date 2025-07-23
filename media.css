@@ -111,7 +111,7 @@
 }
 
 
-@media(max-width:475PX) {
+@media(max-width:375PX) {
 
     #wraipper{
         width: 100%;
@@ -120,6 +120,11 @@
         width: 100%;
 
     }
+
+    .imagecontent 
+{
+    width: 100%;
+}
 
     .imagecontent h1
 
@@ -250,6 +255,14 @@ footer{
 
 
 
+}
+
+@media(max-width:475PX) {
+    
+    .boxa
+    {
+        width: 94%;
+    }
 }
 
 
