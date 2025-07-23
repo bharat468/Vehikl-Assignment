@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #0d1729;
+}
+
+.logo {
+    width: 170px;
+    height: 40px;
+
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+
+#wraipper {
+    background-color: #0c1932;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#wraipper i {
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+.item ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item ul li {
+
+    list-style: none;
+
+}
+
+.item ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 15px 20px;
+    padding: 5px 8px;
+}
+
+.item ul li:nth-of-type(1) a {
+    color: darkorange;
+    border-bottom: 3px solid darkorange;
+    padding: 0 0 22px;
+    text-align: center;
+}
+
+
+.item ul li:nth-of-type(5) a {
+    border: 1px solid rgba(255, 255, 255, 0.454);
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    position: absolute;
+    right: 133px;
+    top: 23px;
+}
+
+.backgroundimage {
+    background-image: url("images/candid-4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 550px; */
+
+}
+
+.color-back {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+}
+
+.imagecontent {
+    position: absolute;
+    width: 450px;
+    text-align: center;
+    margin: 20px 0 0;
+
+
+}
+
+.imagecontent h3 {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.imagecontent h3 span {
+    color: rgb(255, 115, 0);
+    font-size: 30px;
+
+}
+
+.imagecontent h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px;
+    line-height: 56px;
+}
+
+.imagebotton {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin: 20px auto -10px;
+    padding: 8px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.imagebotton a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.content1 {
+    width: 500px;
+    /* height: 400px; */
+    margin: 60px auto;
+}
+
+.content1 h3 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.box {
+    background-color: darkorange;
+    width: 40px;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.content1 p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.appdovlopment {
+    width: 90%;
+    /* height: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 72px;
+    gap: 40px;
+
+
+}
+
+.content2 {
+    width: 41%;
+    color: white;
+}
+
+.content2 h3 {
+
+    font-size: 24px;
+}
+
+.box1 {
+    background-color: darkorange;
+    width: 40px;
+    height: 2px;
+    margin: 5px 0 10px 3px;
+}
+
+
+.image2 {
+    width: 44%;
+    /* height: 300px; */
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logoimage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.limage {
+    width: 25%;
+    /* height: 180px; */
+    border: .5px solid rgba(255, 255, 255, 0.708);
+    border-radius: 9px;
+    margin: 10px 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+.limage img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    filter: grayscale(100%) invert(100%);
+
+}
+
+.clients {
+    margin: 30px;
+
+}
+
+.main {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin: 0 0 130px 0;
+    flex-wrap: wrap;
+
+}
+
+.firstline {
+    width: 30%;
+    color: white;
+}
+
+.firstline ul li {
+    text-align: center;
+    list-style: none;
+}
+
+.firstline1 {
+    width: 30%;
+    color: white;
+}
+
+.firstline1 ul li {
+    text-align: center;
+    list-style: none;
+
+}
+
+.firstline2 {
+    width: 30%;
+    color: white;
+}
+
+.firstline2 ul li {
+    text-align: center;
+    list-style: none;
+
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+
+}
+
+.photobox {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.underbox {
+    width: 40%;
+    height: 320px;
+    border: 0.2px solid rgba(255, 255, 255, 0.416);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121c2e;
+}
+
+.newunderbox {
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+}
+
+.newunderbox h5 {
+    margin: 15px auto 0;
+}
+
+.newunderbox h6 {
+    margin: 10px auto 0;
+}
+
+.ancor h6 a {
+    color: darkorange;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ancor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxa {
+    width: 28%;
+    height: 530px;
+    border: .2px solid rgba(255, 255, 255, 0.358);
+    border-radius: 10px;
+    position: relative;
+}
+
+.imageboxa {
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+    border: .2px solid rgba(255, 255, 255, 0.358);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.imageboxa img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.contenta {
+    width: 300px;
+    margin: 10px 25px;
+}
+
+.contenta h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.contenta p {
+    color: white;
+}
+
+.contenta span a {
+    position: absolute;
+    bottom: 20px;
+    text-decoration: none;
+    color: darkorange;
+
+}
+
+.boxahead {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+}
+
+.meetups {
+    margin: 0 auto 80px;
+}
+
+.imagebotton1 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin: 20px auto 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.imagebotton1 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.logo1 {
+    width: 170px;
+    height: 40px;
+    margin: auto;
+
+
+}
+
+.logo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    height: 150px;
+    width: 120%;
+
+}
+
+#last {
+    margin: 130px 0 0 0;
+    background-color: #152035dd;
+    padding: 30px;
+
+}
+
+
+.iconAhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+}
