@@ -1,4 +1,4 @@
-@media(min-width:770px) and (max-width:1000px) {
+@media(max-width:991px) {
     .item {
         display: none;
     }
@@ -112,8 +112,12 @@
 
 
 @media(max-width:475PX) {
+
+    #wraipper{
+        width: 100%;
+    }
     .backgroundimage {
-        width: 120%;
+        width: 100%;
 
     }
 
@@ -124,19 +128,19 @@
     }
 
     .content1 {
-    width: 120%;
+    width: 100%;
     justify-content: center;
     /* height: 400px; */
     margin: 60px auto;
 }
 
 #logoimage {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 10px 50px;
+    margin: 10px auto;
 }
 
 .limage {
@@ -152,7 +156,7 @@
 
 .main
 {
-    width: 120%;
+    width: 100%;
     flex-direction: column;
 }
 
@@ -172,7 +176,7 @@
 }
 
 .photobox{
-    width: 120%;
+    width: 100%;
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
 }
@@ -184,10 +188,15 @@
 
 .boxa{
     width: 77%;
-    margin: 40px 102px;
+    margin: 40px auto;
 }
 footer{
-    width: 120%;
+    width: 100%;
+}
+.appdovlopment
+{
+    width: 100%;
+    margin: 40px 0 ;
 }
 
 }
